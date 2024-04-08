@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>質問・感想フォーム</title>
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+    <h1>質問・感想フォーム</h1>
+    <div class="koumoku">   
+        氏名<br>
+        <input type="text" name="name"><br>
+        性別<br>
+        <div class="sei">
+            <span class="box">
+        <label>
+        <input type="radio" name="sei" value="male">男</label>
+            </span>
+            <span class="box">
+        <label>
+        <input type="radio" name="sei" value="male">女</label><br>
+            </span>
+        </div>
+        年齢<br>
+    <select name="年齢">
+        <option value="teen" selected >10代</option>
+        <option value="tenn2">20代</option>
+    </select><br>
+    今後見てみたいレシピ<br>
+    <div class="recipe">
+        <span class="hako">
+    <label>
+    <input type="checkbox" name="test" value="check" >和食
+    </label>
+        </span>
+        <span class="hako">
+    <label>
+    <input type="checkbox" name="test" value="check" >中華</label>
+        </span>
+        <span class="hako">
+    <label>
+    <input type="checkbox"name="test" value="check" >洋食
+    </label>
+        </span>
+        <span class="hako">
+    <label>
+    <input type="checkbox" name="test" value="check" >イタリアン
+    </label>
+        </span>
+        <span class="hako">
+    <label>
+    <input type="checkbox" name="test" value="check" >スイーツ
+    </label>
+        </span>
+        <span class="hako">
+    <label>
+    <input type="checkbox" name="test" value="check" >その他
+    </label>   
+        </span><br>
+    自由コメント欄<br>
+    <textarea name="free" rows="3" cols="50">自由に意見を記述してください</textarea><br><br>
+    <button type="submit">送信</button>
+    <button type="submit">取り消し</button>
+</div>
+</body>
+</html>

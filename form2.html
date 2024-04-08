@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>アンケート</title>
+    <link rel="stylesheet" href="css/form2.css">
+</head>
+<body>
+    <h4>アンケート</h4>
+    <hr class="hr1">
+    
+    <div class="a">
+        <p2>Axizの研修をご利用いただき、誠にありがとうございます。<br>
+        以下の内容の記入及び送信をして頂けると幸いです。
+        </p2><br>
+        <span class="required">
+        会社名</span><br>
+        <input type="text" name="office" placeholder="(例)株式会社テクノコア"><br>
+        <span class="required">
+        お名前</span><br>
+        <input type="text" name="name" placeholder="(例)手久野 興亜"> <br>
+        メールアドレス<br>
+        <input type="text" name="mail" placeholder="(例)example@axiz.co.jp"><br>
+        年齢<br>
+        <input type="text" name="age"><br>
+        受講コース<br>
+        <label>
+            <input type="radio" name="corce" value="male">java
+        </label>
+        <label>
+            <input type="radio" name="corce" value="male">インフラ
+        </label><br>
+        会場<br>
+        <select name="会場">
+            <option value="tokyo" selected >日本橋A教室</option>
+            <option value="naha">沖縄那覇</option>
+            <option value="uruma">沖縄うるま</option>
+        </select><br>
+        詳しく学びたい内容(複数回答可)<br>
+            <label>
+                <input type="checkbox" name="test" value="check" >ビジネスマナー
+            </label><br>
+            <label>
+                <input type="checkbox" name="test" value="check" >HTML/CSS
+            </label><br>
+            <label>
+                <input type="checkbox" name="test" value="check" >JavaScript
+            </label><br>
+            <label>
+                <input type="checkbox" name="test" value="check" >Java
+            </label><br>
+            <label>
+                <input type="checkbox" name="test" value="check" >データベース
+            </label><br>
+            <label>
+                <input type="checkbox" name="test" value="check" >Linux
+            </label><br>
+        ご意見<br>
+         <textarea name="free" rows="3" cols="50">自由にご記入ください</textarea><br>
+        <button type="submit">送信する</button>
+    </div>
+        <hr class="hr1">
+        <footer>copyright(C)Axiz</footer>
+
+</body>
+</html>
+    
+         
+
+

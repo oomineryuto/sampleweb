@@ -1,0 +1,27 @@
+body{background-color: rgb(200, 234, 255);}
+h4{color: rgb(0, 249, 166);
+   text-align: center;
+}
+.hr1{border-top: 3px solid #03e3f7;
+}
+.a{display: block;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    border:solid ;
+    border-radius: 10px;
+    width: fit-content;
+    text-align:left;
+}
+.required::after{
+    content: "必須";
+    color: #ffffff;
+    background: #cc0000;
+    font-size: 0.8em;
+    padding: 0.3em;
+    border-radius: 0.5em;
+    margin-left: 0.3em;
+
+}
+
+footer{text-align: center;
+}

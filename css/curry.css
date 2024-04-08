@@ -1,0 +1,14 @@
+body{background-image: url(../images/bg_Argyle.jpg);}
+
+.curry{ margin: auto;
+        display: block;
+        border:double 12px rgb(247, 95, 95);
+
+}
+
+.hyou{border-color: rgb(245, 135, 135);
+      background-color: bisque;}
+
+.daizai{color:rgb(245,135,135);}
+
+.bun{display: flex;}
